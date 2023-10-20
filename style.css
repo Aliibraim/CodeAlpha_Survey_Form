@@ -1,0 +1,110 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("./EtHKpD.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    text-shadow: 2px -1px 4px rgba(57,48,184,0.72);
+}
+h1::before{
+    content: "";
+    position: absolute;
+    width: 140px;
+    height: 4px;
+    background-color: rgb(57, 48, 184);
+    bottom: -10px;
+    left: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 15px 6px rgba(255,255,255,0.43);
+    -webkit-box-shadow: 0px 1px 15px 6px rgba(255,255,255,0.43);
+    -moz-box-shadow: 0px 1px 15px 6px rgba(255,255,255,0.43);
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(57, 48, 184);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 15px 6px rgba(33,28,28,0.75);
+-webkit-box-shadow: 0px 1px 15px 6px rgba(33,28,28,0.75);
+-moz-box-shadow: 0px 1px 15px 6px rgba(33,28,28,0.75);
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    color: white;
+}
+select{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color: #0056b3;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 96%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color: #0056b3;
+}
+input::placeholder{
+    color: #0056b3;
+}
+textarea::placeholder {
+color: #0056b3;
+}
+select {
+    height: 40px;
+}
+
+input[type="submit"] {
+    background-color: white;
+    color: #0056b3;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(179, 176, 176);
+}
+.check ,.check2{
+    display: inline-flex;
+}
+.check label ,.check2 label{
+    font-weight: normal !important;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+

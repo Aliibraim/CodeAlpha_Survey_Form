@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"  href="/EtHKpD.gif">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <form action="# ">
+        <label for="name">Your Name:</label>
+        <input type="text"  name="name" placeholder="Your Full Name" required>
+        <br>
+
+        <label for="email">Your Email:</label>
+        <input type="email"  name="email" placeholder="Enter Your Email" required>
+        <br>
+
+        <label for="age">Your Age:</label>
+        <input type="number"  name="age" placeholder="Your Age" required>
+        <br>
+
+        <label for="gender">Your Gender:</label>
+        <select  name="gender"  required>
+            <option value="Select">Select Your Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+
+        
+        <label>Which topics are you interested in?</label>
+        <div class="check">
+        <input type="checkbox"  value="Technology"> <label for="">Technology</label>
+        <input type="checkbox"  value="Travel"> <label for=""> Travel </label>
+        <input type="checkbox"  value="Food"> <label for=""> Food </label>
+    </div>
+        <br>
+        
+        <label>How often do you visit our website?</label>
+        <div class="check2">
+        <input type="radio" id="daily"  value="Daily"> <label for=""> Daily</label>
+        <input type="radio" id="weekly" value="Weekly"> <label for="">Weekly</label> 
+        <input type="radio" id="monthly"value="Monthly"> <label for=""> Monthly</label>
+    </div>
+        <br>
+        
+        <label for="feedback">Comments or Feedback:</label>
+        <textarea  name="feedback" rows="4" placeholder="Write Some Comment here...." required></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
